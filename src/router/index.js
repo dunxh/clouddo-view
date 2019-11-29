@@ -17,7 +17,7 @@ import FileList from '../components/file/List.vue'
 import BlogList from '../components/content/blog.vue'
 
 import LogList from '../components/log/List'
-
+ 
 
 // 懒加载方式，当路由被访问的时候才加载对应组件
 const Login = resolve => require(['@/components/Login'], resolve)
