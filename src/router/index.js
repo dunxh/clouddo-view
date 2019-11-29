@@ -14,6 +14,8 @@ import MenuList from '@/components/menu/list'
 
 import FileList from '../components/file/List.vue'
 
+import BlogList from '../components/content/blog.vue'
+
 import LogList from '../components/log/List'
 
 
@@ -90,7 +92,7 @@ let router = new Router({
       iconCls: 'fa fa-group',
       children: [
         {path: '/cms/file', component: FileList, name: '文件管理', menuShow: true},
-        {path: '/cms/content', component: ContentBlog, name: '博客管理', menuShow: true},
+        {path: '/cms/content', component: BlogList, name: '博客管理', menuShow: true},
       ]
     },
     {
